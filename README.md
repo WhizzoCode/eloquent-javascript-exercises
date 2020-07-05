@@ -9,3 +9,6 @@ My solutions to the exercises of the book
     - Looping a triangle
     - FizzBuzz
     - Chessboard
+3. Functions
+    - Minimum
+    
