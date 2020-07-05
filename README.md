@@ -12,3 +12,4 @@ My solutions to the exercises of the book
 3. Functions
     - Minimum
     - Recursion
+    - Bean counting
