@@ -58,7 +58,8 @@ function prepend(element, rest) {
 }
 
 function nth(list, index) {
-  if (index > 0) return nth(list.rest, index - 1);
+  if (!list) return undefined;
+  else if (index > 0) return nth(list.rest, index - 1);
   return list.value;
 }
 
