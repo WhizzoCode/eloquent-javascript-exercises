@@ -13,3 +13,6 @@ My solutions to the exercises of the book
     - Minimum
     - Recursion
     - Bean counting
+4. Data Structures: Objects and Arrays
+    - The sum of a range
+    
