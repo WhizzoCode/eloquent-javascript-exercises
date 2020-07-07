@@ -16,4 +16,5 @@ My solutions to the exercises of the book
 4. Data Structures: Objects and Arrays
     - The sum of a range
     - Reversing an array
+    - A list
     
