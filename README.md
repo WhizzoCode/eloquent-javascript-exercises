@@ -17,4 +17,4 @@ My solutions to the exercises of the book
     - The sum of a range
     - Reversing an array
     - A list
-    
+    - Deep comparison
