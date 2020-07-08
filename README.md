@@ -18,3 +18,5 @@ My solutions to the exercises of the book
     - Reversing an array
     - A list
     - Deep comparison
+5. Higher-Order Functions
+    - Flattening
