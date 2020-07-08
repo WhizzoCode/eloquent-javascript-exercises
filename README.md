@@ -20,3 +20,4 @@ My solutions to the exercises of the book
     - Deep comparison
 5. Higher-Order Functions
     - Flattening
+    - Your own loop
