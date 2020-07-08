@@ -22,3 +22,4 @@ My solutions to the exercises of the book
     - Flattening
     - Your own loop
     - Everything
+    - Dominant writing direction
