@@ -29,7 +29,7 @@ function runSilentRobot(state, robot, memory) {
   }
 }
 
-function compareRobots(robot1, memory1, robot2, memory2) {
+export function compareRobots(robot1, memory1, robot2, memory2) {
   let villagestate;
   let turns1 = 0;
   let turns2 = 0;
@@ -42,4 +42,4 @@ function compareRobots(robot1, memory1, robot2, memory2) {
   console.log(`Robot #2 average: ${turns2 / 100} turns`);
 }
 
-compareRobots(routeRobot, [], goalOrientedRobot, []);
+// compareRobots(routeRobot, [], goalOrientedRobot, []);

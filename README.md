@@ -30,3 +30,4 @@ My solutions to the exercises of the book
     - Borrowing a method
 7. Project: A Robot
     - Measuring a robot
+    - Robot efficiency
