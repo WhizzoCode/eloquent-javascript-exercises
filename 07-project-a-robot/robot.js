@@ -26,7 +26,7 @@ function buildGraph(edges) {
 
 const roadGraph = buildGraph(roads);
 
-class VillageState {
+export class VillageState {
 
   constructor(place, parcels) {
     this.place = place;
@@ -92,7 +92,7 @@ const mailRoute = [
   "Post Office"
 ];
 
-function routeRobot(state, memory) {
+export function routeRobot(state, memory) {
   if (memory.length == 0) {
     memory = mailRoute;
   }
@@ -112,7 +112,7 @@ function findRoute(graph, from, to) {
   }
 }
 
-function goalOrientedRobot({place, parcels}, route) {
+export function goalOrientedRobot({place, parcels}, route) {
   if (route.length == 0) {
     let parcel = parcels[0];
     if (parcel.place != place) {

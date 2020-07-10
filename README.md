@@ -29,3 +29,4 @@ My solutions to the exercises of the book
     - Iterable groups
     - Borrowing a method
 7. Project: A Robot
+    - Measuring a robot
