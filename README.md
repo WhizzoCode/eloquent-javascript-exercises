@@ -26,3 +26,4 @@ My solutions to the exercises of the book
 6. The Secret Life of Objects
     - A vector type
     - Groups
+    - Iterable groups
