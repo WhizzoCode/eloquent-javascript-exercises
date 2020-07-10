@@ -27,3 +27,4 @@ My solutions to the exercises of the book
     - A vector type
     - Groups
     - Iterable groups
+    - Borrowing a method
