@@ -28,3 +28,4 @@ My solutions to the exercises of the book
     - Groups
     - Iterable groups
     - Borrowing a method
+7. Project: A Robot
