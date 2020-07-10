@@ -25,3 +25,4 @@ My solutions to the exercises of the book
     - Dominant writing direction
 6. The Secret Life of Objects
     - A vector type
+    - Groups
