@@ -34,3 +34,4 @@ My solutions to the exercises of the book
     - Persistent group
 8. Bugs and Errors
     - Retry
+    - The locked box
