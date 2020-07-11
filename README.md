@@ -31,3 +31,4 @@ My solutions to the exercises of the book
 7. Project: A Robot
     - Measuring a robot
     - Robot efficiency
+    - Persistent group
