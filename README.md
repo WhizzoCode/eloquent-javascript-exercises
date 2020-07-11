@@ -32,3 +32,5 @@ My solutions to the exercises of the book
     - Measuring a robot
     - Robot efficiency
     - Persistent group
+8. Bugs and Errors
+    - Retry
