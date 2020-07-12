@@ -38,3 +38,4 @@ My solutions to the exercises of the book
 9. Regular Expressions
     - Regexp golf
     - Quoting style
+    - Numbers again
