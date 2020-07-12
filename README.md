@@ -35,3 +35,5 @@ My solutions to the exercises of the book
 8. Bugs and Errors
     - Retry
     - The locked box
+9. Regular Expressions
+    - Regexp golf
