@@ -37,3 +37,4 @@ My solutions to the exercises of the book
     - The locked box
 9. Regular Expressions
     - Regexp golf
+    - Quoting style
