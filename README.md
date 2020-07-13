@@ -39,3 +39,5 @@ My solutions to the exercises of the book
     - Regexp golf
     - Quoting style
     - Numbers again
+10. Modules
+    - A modular robot
