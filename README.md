@@ -42,3 +42,4 @@ My solutions to the exercises of the book
 10. Modules
     - A modular robot
     - Roads module
+    - Circular dependencies
