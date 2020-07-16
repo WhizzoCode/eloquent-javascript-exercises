@@ -110,6 +110,22 @@ specialForms.define = (args, scope) => {
   return value;
 };
 
+specialForms.set = (args, scope) => {
+  if (args.length != 2 || args[0].type != "word") {
+    throw new SyntaxError("Incorrect use of set");
+  }
+  let theVar = args[0].name;
+  let theValue = evaluate(args[1], scope);
+  let currentScope = scope;
+  do {
+    if (Object.prototype.hasOwnProperty.call(currentScope, theVar)) {
+      currentScope[theVar] = theValue;
+      return theValue;
+    }
+  } while (currentScope = Object.getPrototypeOf(currentScope))
+  throw new ReferenceError("Binding don't exist");
+};
+
 specialForms.fun = (args, scope) => {
   if (!args.length) {
     throw new SyntaxError("Functions need a body");

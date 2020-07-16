@@ -50,3 +50,4 @@ My solutions to the exercises of the book
     - Arrays
     - Closure
     - Comments
+    - Fixing scope
