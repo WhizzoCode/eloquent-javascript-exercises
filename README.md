@@ -45,3 +45,4 @@ My solutions to the exercises of the book
     - Circular dependencies
 11. Asynchronous Programming
     - Tracking the scalpel
+    - Building Promise.all
