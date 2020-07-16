@@ -43,3 +43,5 @@ My solutions to the exercises of the book
     - A modular robot
     - Roads module
     - Circular dependencies
+11. Asynchronous Programming
+    - Tracking the scalpel
