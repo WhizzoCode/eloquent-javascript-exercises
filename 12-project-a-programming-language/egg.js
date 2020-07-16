@@ -149,7 +149,13 @@ topScope.print = value => {
   return value;
 };
 
-function run(program) {
+topScope.array = (...elements) => elements;
+
+topScope.length = arr => arr.length;
+
+topScope.element = (arr, nth) => arr[nth];
+
+export function run(program) {
   return evaluate(parse(program), Object.create(topScope));
 }
 
