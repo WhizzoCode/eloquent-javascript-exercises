@@ -49,3 +49,4 @@ My solutions to the exercises of the book
 12. Project: A Programming Language
     - Arrays
     - Closure
+    - Comments

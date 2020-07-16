@@ -14,9 +14,8 @@ function parseExpression(program) {
 }
 
 function skipSpace(string) {
-  let first = string.search(/\S/);
-  if (first == -1) return "";
-  return string.slice(first);
+  let skip = string.match(/^(\s|#.*)*/);
+  return string.slice(skip[0].length);
 }
 
 function parseApply(expr, program) {
@@ -39,7 +38,7 @@ function parseApply(expr, program) {
   return parseApply(expr, program.slice(1));
 }
 
-function parse(program) {
+export function parse(program) {
   let { expr, rest } = parseExpression(program);
   if (skipSpace(rest).length > 0) {
     throw new SyntaxError("Unexpected text after program");
