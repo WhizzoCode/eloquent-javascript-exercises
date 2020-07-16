@@ -48,3 +48,4 @@ My solutions to the exercises of the book
     - Building Promise.all
 12. Project: A Programming Language
     - Arrays
+    - Closure
